@@ -1,0 +1,22 @@
+protected access of members
+protected, is similar to private, but it can also be accessed in the inherited class:
+
+Example:
+1. class ABC : private XYZ              //private derivation
+            {                }
+2. class ABC : public XYZ              //public derivation
+            {               }
+3. class ABC : protected XYZ              //protected derivation
+            {              }
+4. class ABC: XYZ                            //private derivation by default
+{            }
+Note:
+
+privately inherited
+public members of the base class 
+becomes the private members of the derived class 
+
+
+publicly inherited
+public members of the base class 
+also become the public members of the derived class. 
