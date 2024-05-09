@@ -11,4 +11,6 @@ int main()
 	// printing the contents of the array
 	for (int i = 0; i < 5; i++)
 		cout << *(pi + i) << " ";
+
+	delete[] pi;
 }
